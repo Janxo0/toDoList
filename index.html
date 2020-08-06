@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- clock -->
+        <div class="clockBx">
+            <div class="js-clock">
+                <h1></h1>
+            </div>
+        </div>
+    
+        <!-- What is your name? -->
+        <div class="greetBx">
+            <form class="js-form form">
+                <input type="text" placeholder="What is your name?" />
+            </form>
+            <h4 class="js-greetings greetings"></h4>
+        </div>
+    
+        <!-- Write a to do! -->
+        <div class="toDoBx">
+            <form class="js-toDoForm">
+                <input type="text" placeholder="Write a to do!" />
+            </form>
+            <ul class="js-toDoList"></ul>
+        </div>
+    </div>
+    <!-- weather -->
+    <div class="js-weather weather"></div>
+
+    <script src="/clock.js"></script>
+    <script src="/form.js"></script>
+    <script src="/todo.js"></script>
+    <script src="/bg.js"></script>
+    <script src="/weather.js"></script>
+
+</body>
+
+</html>
